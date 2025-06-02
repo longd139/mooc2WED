@@ -15,13 +15,14 @@ html,body{
 }
 header{
     padding: 20px;
-    background-color: #52357B;
+    background-color: #2C3E50;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 nav{
     background-color: none;
+    color: #FFD700;
 }
 header ul {
     display: flex;
@@ -100,5 +101,5 @@ footer{
 h1 {
     text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: chocolate;
+    color: #FFFFFF;
 }
