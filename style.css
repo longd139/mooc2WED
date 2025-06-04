@@ -15,19 +15,23 @@ html,body{
 }
 header{
     padding: 20px;
-    background-color: #2C3E50;
+    background-color: #52357B;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 nav{
-    background-color: none;
-    color: #FFD700;
+    display: inline-block;
+     width: 80%;
+}
+
+nav img {
+  width: 10%;
 }
 header ul {
     display: flex;
-    list-style: none;
-    margin: 0;
+    /* list-style: none; */
+    /* margin: 0; */
     padding: 0;
 }
 
@@ -101,8 +105,9 @@ footer{
 h1 {
     text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #FFFFFF;
+    color: chocolate;
 }
+
 .skip-link {
   position: absolute;
   top: -40px;
@@ -114,4 +119,20 @@ h1 {
 }
 .skip-link:focus {
   top: 0;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 20px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.grid img {
+  width: 100%;
 }
